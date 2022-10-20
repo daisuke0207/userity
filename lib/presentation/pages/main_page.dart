@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:persistent_bottom_nav_bar_v2/persistent-tab-view.dart';
-import 'package:userity/pages/home_page.dart';
-import 'package:userity/pages/setting_page.dart';
+import 'package:userity/presentation/pages/home_page.dart';
+import 'package:userity/presentation/pages/setting_page.dart';
 
 final bottomTabViewProvider = StateProvider<ViewType>((ref) => ViewType.home);
 
