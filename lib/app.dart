@@ -15,7 +15,7 @@ class App extends ConsumerWidget {
       routeInformationProvider: router.routeInformationProvider,
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
-      title: 'Talk Alone',
+      title: 'Useriry',
       theme: lightThemeData(context),
       darkTheme: darkThemeData(context),
       debugShowCheckedModeBanner: false,
