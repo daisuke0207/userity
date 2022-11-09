@@ -16,7 +16,7 @@ class App extends ConsumerWidget {
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
       title: 'Useriry',
-      theme: lightThemeData(context),
+      theme: darkThemeData(context), // lightThemeData
       darkTheme: darkThemeData(context),
       debugShowCheckedModeBanner: false,
       localizationsDelegates: AppLocalizations.localizationsDelegates,

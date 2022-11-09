@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:userity/presentation/pages/home_page.dart';
+import 'package:userity/presentation/pages/library_page.dart';
 import 'package:userity/presentation/pages/setting_page.dart';
 
 class MainPage extends HookWidget {
@@ -8,6 +9,7 @@ class MainPage extends HookWidget {
 
   final pages = const [
     HomePage(),
+    LibraryPage(),
     SettingPage(),
   ];
 
@@ -26,6 +28,7 @@ class MainPage extends HookWidget {
         onTap: onTapBottomTab,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'ホーム'),
+          BottomNavigationBarItem(icon: Icon(Icons.apps), label: 'ライブラリ'),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: '設定'),
         ],
         type: BottomNavigationBarType.fixed,
